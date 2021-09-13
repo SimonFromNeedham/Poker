@@ -8,13 +8,13 @@ If you want to play for yourself, follow these directions:
 
 
 The following classes are used:
-  Card.java: Simulates a normal playing card with rank and suit attributes
-  Deck.java: Utilizes the card class the simulate a standard 52 playing card deck
-  Hand.java: Each instance represents a Player hand, and includes functions to evaluate those hands (e.g. hasTwoPair())
-  Player.java: Each instance represents a Player (either real or AI) with attributes such as bankroll, bet, and an individual Hand
-  Game.java: The driver class, implements every other class to simulate a full game with user input and AI opponents. 
-  SortByScore: A helper class used to sort Players by their hand scores and whether or not they’ve folded
-  Constants: The “control center” of the project, includes variables, constants, and methods used frequently in other classes 
+* Card.java: Simulates a normal playing card with rank and suit attributes
+* Deck.java: Utilizes the card class the simulate a standard 52 playing card deck
+* Hand.java: Each instance represents a Player hand, and includes functions to evaluate those hands (e.g. hasTwoPair())
+* Player.java: Each instance represents a Player (either real or AI) with attributes such as bankroll, bet, and an individual Hand
+* Game.java: The driver class, implements every other class to simulate a full game with user input and AI opponents. 
+* SortByScore: A helper class used to sort Players by their hand scores and whether or not they’ve folded
+* Constants: The “control center” of the project, includes variables, constants, and methods used frequently in other classes 
 
 The AI’s play style works as follows:
 1. If it’s the first round of betting (pre-flop) consult a lookup table to determine weather or not it should call, fold, or raise
