@@ -1,11 +1,9 @@
 This is a java project which utilizes object oriented programming to simulate a game of Texas Hold’em.
 The program allows the user to play games against four AI opponents until all of the opponent are bankrupt, the player is bankrupt, or they choose to cash out.
-If you want to play for yourself, follow these directions:
-  Fork and download the repository
-  Navigate to Poker/src in the terminal or command line
-  Compile with “Javac Game.java” and run with “Java Game”
-  If you don’t have a JDK, you can download one here: https://www.oracle.com/java/technologies/javase-downloads.html
-
+If you want to play for yourself, follow these directions (If you don’t have a JDK, you can download one here: https://www.oracle.com/java/technologies/javase-downloads.html):
+1. Fork and download the repository
+2. Navigate to Poker/src in the terminal or command line
+3. Compile with “Javac Game.java” and run with “Java Game”
 
 The following classes are used:
 * Card.java: Simulates a normal playing card with rank and suit attributes
